@@ -39,3 +39,22 @@ function ram(str1){
     return pa
 }
 console.log(ram("prathap"))
+
+
+
+
+//palindrome or not check 
+function palindrome (str3){
+    em="";
+    for(let i=str3.length-1;i>=0;i--){
+        em+=str3.charAt(i)
+    }
+    if(str3===em){
+        return true
+    }
+    else{
+        return false
+    
+    }
+}
+console.log(palindrome("dad"))
